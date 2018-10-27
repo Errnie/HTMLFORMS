@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" href="Quiz1.css">
+        <title>
+            Html Form Input Elements
+        </title>
+
+</head>
+<body>
+    <h1> QUIZ 1 - Question1 (Ten Html Input Elements)</h1>
+
+<h2> 1. Text field</h2>
+<p>The <strong>input type="text"</strong> defines a one-line text input field:</p>
+
+<form action="/action_page.php">
+First name:<br>
+<input type="text" name="firstname">
+<br>
+Last name:<br>
+<input type="text" name="lastname">
+<br><br>
+<input type="submit">
+</form>
+
+<h2> 2. Password field</h2>
+<p>The <strong>input type="password"</strong> defines a password field:</p>
+
+<form action="">
+User name:<br>
+<input type="text" name="userid">
+<br>
+User password:<br>
+<input type="password" name="psw">
+</form>
+
+<h2> 3. Submit Button</h2>
+<p>The <strong>input type="submit"</strong> defines a button for submitting form data to a form-handler:</p>
+
+<form action="/action_page.php">
+First name:<br>
+<input type="text" name="firstname" value="Ola">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value="Yemi">
+<br><br>
+<input type="submit" value="Submit">
+</form> 
+
+<h2> 4. Reset Button</h2>
+<p>The <strong>input type="reset"</strong> defines a reset button that will reset all form values to their default values:</p>
+
+<form action="/action_page.php">
+First name:<br>
+<input type="text" name="firstname" value="Ola">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value="Yemi">
+<br><br>
+<input type="submit" value="Submit">
+<input type="reset">
+</form> 
+
+<h2> 5.  Radio Buttons</h2>
+<p>The <strong>input type="radio"</strong> defines a radio button:</p>
+
+<form action="/action_page.php">
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+  <input type="radio" name="gender" value="other">Prefer not to say<br><br>
+  <input type="submit">
+</form> 
+
+<h2> 6. Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form action="/action_page.php">
+<input type="checkbox" name="School1" value="Uni">University
+<br>
+<input type="checkbox" name="School2" value="High">High School
+<br><br>
+<input type="submit">
+</form> 
+
+<h2> 7. Button Field</h2>
+
+<input type="button" onclick="alert('Scroll down for more input elements!')" value="Click Me!">
+
+<h2> 8. Number Field</h2>
+<p>The <strong>input type="number"</strong> defines a numeric input field.</p>
+
+
+<form action="/action_page.php">
+  Insert Quantity:
+  <input type="number" name="quantity" min="1" max="1000">
+  <input type="submit">
+</form>
+
+<h2>8.  File upload</h2>
+<p>Show a file-select field which allows a file to be chosen for upload:</p>
+
+<form action="/action_page.php">
+  Select a file: <input type="file" name="myFile"><br><br>
+  <input type="submit">
+</form>
+
+<h2> 9. Search Field</h2>
+<p>The <strong>input type="search"</strong> is used for search fields (behaves like a regular text field):</p>
+
+<form action="/action_page.php">
+  Search Google:
+  <input type="search" name="googlesearch">
+  <input type="submit">
+</form>
+
+<h2> 10. Hidden field </h2>
+<p> The <strong>input type="hidden"</strong>defines a hidden input field.The hidden input field is not shown to the user, but the data is sent when the form is submitted.</p>
+
+<form action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  <input type="hidden" id="custId" name="custId" value="3487">
+  <input type="submit" value="Submit">
+</form>
+
+
+
+<h2> Quiz1 - Question 2 (Different Between GET and POST method)</h2>
+
+ <p>
+
+    
+    GET is basically for retrieving data whereas 
+    POST is used in storing data, updating data, ordering a product, or sending e-mail
+ </p>
+
+
+
+
+
+
+</body>
+</html>

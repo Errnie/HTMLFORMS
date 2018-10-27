@@ -1,0 +1,51 @@
+h1 {
+    color: darkred; 
+    font-weight: bolder; 
+    font-family: Cambria; 
+    font-display: ""
+}
+h2 { color:darkred}
+p {color: darkgoldenrod; 
+    font-family: Cambria; 
+    font-weight: bold; 
+    font-size: "";
+    
+}
+body { 
+    background: lightblue no-repeat fixed center; 
+     margin-top: 0
+     
+     
+}
+
+fieldset
+{
+  background-color:#CCC;
+  max-width:500px;
+  padding:16px;	
+  border:2px solid green;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;
+    font-style: oblique;
+    font-family: cursive;
+    font-weight: 500px;
+    color: darkred
+}
+.legend
+{
+  margin-bottom:0px;
+  margin-left:16px;
+  font-size: "";
+  font-weight: 600px;
+  font-display: "";
+  color: darkred
+  
+}
+h3 { color:darkred
+
+}
+
+    
+
+}
